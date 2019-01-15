@@ -19,15 +19,21 @@ public class idade {
 		if(idade < 16) {
 			JOptionPane.showMessageDialog(null, "Estamos em "+year+ " Então você tem "+idade+
 					"\nNão pode votar ainda!");
+			System.out.println("Estamos em "+year+ " Então você tem "+idade);
+			System.out.println("Não pode votar ainda!");
 		}
 		else {
 			if((idade >= 16 && idade < 18) || (idade > 70)) {
 				JOptionPane.showMessageDialog(null, "Estamos em "+year+ " Então você tem "+idade+
 						"\nSeu voto é opcional");
+				System.out.println("Estamos em "+year+ " Então você tem "+idade);
+				System.out.println("Seu voto é opcional");
 			}
 			else {
 				JOptionPane.showMessageDialog(null, "Estamos em "+year+ " Então você tem "+idade+
 						"\nSeu voto é obrigatório!");
+				System.out.println("Estamos em "+year+ " Então você tem "+idade);
+				System.out.println("Seu voto é obrigatório!");
 			}
 		}
 		
